@@ -1,0 +1,9 @@
+<ol class="breadcrumb">
+  <li><a href="#/">Dashboard</a></li>
+  <li><a ng-href="#/{{entityInfo.name}}">{{entityInfo.text}}</a></li>
+  <li><a ng-href="#/{{entityInfo.name}}/edit/{{entityData.id}}">Edit {{entityInfo.text}}</a></li>
+</ol>
+<h3>Edit {{entityInfo.text}}</h3>
+<hr>
+
+<div parse-el-form entity-info="entityInfo" entity-data="entityData" class="addItem"></div>

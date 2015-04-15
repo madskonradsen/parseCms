@@ -1,0 +1,13 @@
+<ol class="breadcrumb">
+  <li><a href="#/">Dashboard</a></li>
+  <li><a ng-href="#/{{entityInfo.name}}">{{entityInfo.text}}</a></li>
+</ol>
+<h3>{{entityInfo.text}}</h3>
+<p><a ng-href="#/{{entityInfo.name}}/add" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Add item</a></p>
+
+<hr>
+
+<!-- The message to show when the table is empty -->
+<div class="alert alert-info" role="alert" ng-hide="entityData"><strong>No items!</strong> Click the "Add"-button to start creating some content.</div>
+
+<div parse-el-table entity-data="entityData" entity-info="entityInfo" class="listItems"></div>
