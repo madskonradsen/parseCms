@@ -8,7 +8,7 @@ This is not entirely done, so it's not production-ready!
 
 `npm install && bower install`
 
-`grunt build
+`grunt build`
 
 Change Parse-constants in app.js
 
