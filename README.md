@@ -17,10 +17,10 @@ Edit project.json to match criteria
 Scaffold database with setup.html
 
 # Supported datatypes
-GPS Coordinates
-Images
-Strings
-Numbers
+* GPS Coordinates
+* Images
+* Strings
+* Numbers
 
 # Nice to know
 
