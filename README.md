@@ -1,3 +1,5 @@
+# The project have been discontinued due to the fact that Facebook have choosen to shut down Parse
+
 # ParseCMS
 
 ParseCMS is a CMS built on top of Facebooks BaaS Parse. It's very modular and flexible as everything the system needs to know about your data-structure is handled by a file called project.json. Based on the file, the CMS is able to scaffold a database on Parse, and determine how the CMS is set up(for example how a datatype should be displayed in the CMS). The CMS is built using Angular, SASS and Bootstrap and with the help of Grunt, Bower, NPM and Yeoman.
